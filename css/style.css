@@ -1,0 +1,42 @@
+/* Import fonts */
+@font-face {font-family: 'Rohza One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; src: url("/fonts/Roboto-Regular.ttf");}
+@font-face {font-family: 'Roboto-Regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; src: url("/fonts/Roboto-Regular.ttf");}
+
+/* MOBILE FIRST */
+
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    height: 30vh;
+    position: relative;
+    left: -1vh;
+}
+
+.header-top-right {
+    height: 5vh;
+    padding-right: 2vh;
+}
+
+.top-right {
+    height: fit-content;
+    margin: 2vh 2vh 0 0;
+}
+
+h1 {
+    margin: 0;
+    color: #5778EE;
+    font-size: 7vh;
+}
+
+.header-title {
+    float: right;
+    /* margin-right: 10vh; */
+    width: 5vh;
+    width: fit-content;
+    position: relative;
+    top: -40vh;
+}
